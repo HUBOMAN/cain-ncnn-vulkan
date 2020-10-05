@@ -37,7 +37,7 @@ jobs:
         path: cain-ncnn-vulkan-artifact
 
   windows-2019:
-    runs-on: windows-2019
+    runs-on: windows-2020
     steps:
     - uses: actions/checkout@v2
       with:
